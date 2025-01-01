@@ -1,0 +1,37 @@
+/*variables*/
+
+
+/*reset*/
+
+
+
+/*base styles*/
+
+
+/*fonts*/
+
+
+
+/*mobile styles*/
+/*No need to use media queries because it's our base style
+
+
+/*small tablet styles*/ /* as soon as width>=620px this style will be applied*/
+@media screen and (min-width:620px){
+
+}
+
+/*large tablets and laptop styles*/
+
+@media screen and (min-width:960px){
+
+}
+ 
+/*desktop style*/
+
+@media screen and (min-width:1200px){
+
+}
+
+
+
