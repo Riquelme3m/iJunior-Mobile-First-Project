@@ -1,37 +1,59 @@
-/*variables*/
+/*Variables*/
+:root {
+    --primary: #FFC636;
+    --secondary: #0A0B5B;
+}
 
+/*Reset*/
+body,
+p,
+a,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
 
-/*reset*/
+li {
+    list-style-type: none;
+}
 
+/*Base styles*/
+body {
+    background-color: var(--secondary);
+    overflow-x: hidden;
+}
 
-
-/*base styles*/
-
-
-/*fonts*/
-
-
-
-/*mobile styles*/
-/*No need to use media queries because it's our base style
-
-
-/*small tablet styles*/ /* as soon as width>=620px this style will be applied*/
-@media screen and (min-width:620px){
+.button {
+    background: none;
+    border: 2px solid var(--primary);
+    padding: 6px 12px;
+    color: var(--primary);
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+    display: inline-block;
 
 }
 
-/*large tablets and laptop styles*/
-
-@media screen and (min-width:960px){
-
-}
- 
-/*desktop style*/
-
-@media screen and (min-width:1200px){
-
+.button:hover {
+    color: #222;
+    background: var(--primary);
 }
 
+input,
+textarea {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: 2px solid #9893D8;
+    color: #f2f2f2;
 
+}
 
+@media screen and (min-width:620px) {}
+
+@media screen and (min-width:960px) {}
+
+@media screen and (min-width:1200px) {}
