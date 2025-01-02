@@ -4,6 +4,12 @@
     --secondary: #0A0B5B;
 }
 
+/*Fonts*/
+@font-face {
+    font-family: "Rubik Regular";
+    src: url(assets/fonts/Rubik-Regular.ttf);
+}
+
 /*Reset*/
 body,
 p,
@@ -23,7 +29,8 @@ li {
 body {
     background-color: var(--secondary);
     overflow-x: hidden;
-    font-family: "Rubik";
+    font-family: "Rubik Regular";
+    font-size: 20px;
 }
 
 .button {
@@ -53,8 +60,52 @@ textarea {
 
 }
 
-@media screen and (min-width:620px) {}
+h1,
+h2,
+h3,
+h4 {
+    color: #DDDBFF;
+    font-weight: normal;
+}
 
-@media screen and (min-width:960px) {}
+p,
+a,
+li {
+    color: #9893D8;
+}
 
-@media screen and (min-width:1200px) {}
+h1,
+h3 {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+.leading {
+    font-size: 1.1em;
+
+}
+
+@media screen and (min-width:620px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:960px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        font-size: 20px;
+    }
+}
