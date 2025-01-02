@@ -23,6 +23,7 @@ li {
 body {
     background-color: var(--secondary);
     overflow-x: hidden;
+    font-family: "Rubik";
 }
 
 .button {
