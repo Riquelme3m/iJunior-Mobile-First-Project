@@ -89,7 +89,22 @@ h4 {
 
 .leading {
     font-size: 1.1em;
+}
 
+/*Mobile styles*/
+
+.grid {
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+.site-nav{
+    margin:0 20px;
+}
+.site-nav ul{
+    display:none;
+}
+.site-nav h1{
+    border-bottom:3px solid #FFC636;
 }
 
 @media screen and (min-width:620px) {
